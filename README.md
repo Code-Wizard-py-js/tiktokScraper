@@ -44,7 +44,8 @@ Your JSON file should consist of a list of cookies formatted like so:
     "origin": "https://www.tiktok.com"
     },
 ```
-
+Importing your cookies
+The API currently has a couple of bugs when it comes to the verification process during data fetching. However, they can be circumvented by providing your own cookies. To do this you will have to log in to the TikTok website, use a browser extension to export your cookies into a JSON file, and place that file in the same folder as the program. Doing this will also allow you to fetch your likes without having to make them public.
 ## Usage
 
 **Make sure your likes are public, enter your username in the top bar, click Retrieve TikToks**

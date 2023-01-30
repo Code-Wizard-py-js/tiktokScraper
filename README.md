@@ -2,9 +2,7 @@
 
 Provides a user friendly interface for the [Unofficial TikTok Api](https://github.com/davidteather/TikTok-Api). Allows you to download your liked videos, videos from the trending page, user uploads, and more.
 
-<sup> Latest Update: **v0.7** New Tabs for byHashtag/bySearch, Bookmarks Page, Allows importing cookies as a workaround for current api bugs </sup>
 
-**DISCLAIMER: The API that this was made for is very unstable so this project is mostly just here for showcasing at this point. Depending on the day it might actually work, so if you're really that interested in using this just contact me and I can help set it up. Most days it won't work though so I haven't put much effort into making this "ready for the public" yet** 
 
 <sup>Also, I haven't cleaned up the code yet so don't judge me okay.. </sup>
 
@@ -27,9 +25,7 @@ I use TikTok for language learning and stumbled upon the very useful [Unofficial
 
 You can just use pip to install them with the requirements.txt file provided
 
-## Importing your cookies
 
-The API currently has a couple of bugs when it comes to the verification process during data fetching. However, they can be circumvented by providing your own cookies. To do this you will have to log in to the TikTok website, use a browser extension to export your cookies into a JSON file, and place that file in the same folder as the program. Doing this will also allow you to fetch your likes without having to make them public. 
 
 Your JSON file should consist of a list of cookies formatted like so:
 ```
@@ -53,25 +49,7 @@ Your JSON file should consist of a list of cookies formatted like so:
 
 **Make sure your likes are public, enter your username in the top bar, click Retrieve TikToks**
 
-<sup> *Retrievals are cached but the links expire after a day (?) so make sure you clear the cache eventually in order to get a fresh batch. </sup>
 
-- Left Click to download (Powered by [ytdl](https://github.com/jaseg/python-mpv))
-- Right Click to preview (Powered by [mpv](https://github.com/jaseg/python-mpv))
-
-![demo](https://github.com/DeeFrancois/tiktok-scraper-gui/blob/main/DocumentationImages/leftrightClick.gif)
-
-- If Selection Mode is enabled you can use Left Click to instead select which TikToks to download
-
-![demo](https://github.com/DeeFrancois/tiktok-scraper-gui/blob/main/DocumentationImages/selectionMode.gif)
-
-- Middle Click to get more info after the Extra Details sidebar is enabled
-- Click on the User Avatar to open in your browser
-
-![demo](https://github.com/DeeFrancois/tiktok-scraper-gui/blob/main/DocumentationImages/showDetails.gif)
-
-- "Show Player" will open the Companion Video Player in another window for scrolling through downloaded videos
-
-![demo](https://github.com/DeeFrancois/tiktok-scraper-gui/blob/main/DocumentationImages/showPlayer.gif)
 
 
 Licensed under the [MIT License](LICENSE).
